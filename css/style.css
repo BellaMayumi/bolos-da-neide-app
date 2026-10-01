@@ -90,6 +90,7 @@ main {
 #introducao img {
     width: 450px;
     height: 250px;
+    max-width: 500px;
     object-fit: cover;
     border-radius: 8px;
 }
@@ -101,7 +102,6 @@ main {
     margin-bottom: 10px;
 }
 
-/* Produtos / Cards */
 #produtos {
     margin-top: 30px;
 }
@@ -143,8 +143,8 @@ main {
     font-family: Georgia, serif;
 }
 
-/* Requisitos e Tabela */
-#requisitos, #tabela-precos {
+#requisitos,
+#tabela-precos {
     margin-top: 30px;
     background-color: rgb(40, 25, 30);
     padding: 20px;
@@ -169,7 +169,8 @@ table {
     color: white;
 }
 
-th, td {
+th,
+td {
     padding: 10px;
     text-align: left;
     border: 1px solid rgb(80, 60, 65);
